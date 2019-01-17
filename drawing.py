@@ -44,3 +44,25 @@ cg.Point(120, 380),
 cg.Point(180, 380))
 tree.setFillColor('darkGreen')
 paper.add(tree)
+
+
+# add more sun rays arround the sun 
+sunraySW = cg.Path(cg.Point(660, 140), cg.Point(635, 165))
+sunraySW.setBorderColor('yellow')
+sunraySW.setBorderWidth(6)
+paper.add(sunraySW)
+
+sunraySE = cg.Path(cg.Point(740, 140), cg.Point(765, 165))
+sunraySE.setBorderColor('yellow')
+sunraySE.setBorderWidth(6)
+paper.add(sunraySE)
+
+sunrayNE = cg.Path(cg.Point(740, 60), cg.Point(765, 35))
+sunrayNE.setBorderColor('yellow')
+sunrayNE.setBorderWidth(6)
+paper.add(sunrayNE)
+
+sunrayNW = cg.Path(cg.Point(660, 60), cg.Point(635, 35))
+sunrayNW.setBorderColor('yellow')
+sunrayNW.setBorderWidth(6)
+paper.add(sunrayNW)
