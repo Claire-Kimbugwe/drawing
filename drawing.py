@@ -66,3 +66,9 @@ sunrayNW = cg.Path(cg.Point(660, 60), cg.Point(635, 35))
 sunrayNW.setBorderColor('yellow')
 sunrayNW.setBorderWidth(6)
 paper.add(sunrayNW)
+
+grass = cg.Rectangle(800, 300, cg.Point(400, 450))
+grass.setFillColor('green')
+grass.setBorderColor('green')
+grass.setDepth(75) # must be behind house and tree
+paper.add(grass)
