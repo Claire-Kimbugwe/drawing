@@ -72,3 +72,16 @@ grass.setFillColor('green')
 grass.setBorderColor('green')
 grass.setDepth(75) # must be behind house and tree
 paper.add(grass)
+
+window= cg.Rectangle(50, 70, cg.Point(450, 300))
+window.setBorderColor('black')
+window.setFillColor('grey')
+
+paper.add(window)
+
+roof = cg.Polygon(cg.Point(100, 300),cg.Point(400, 450),
+cg.Point(300, 450))
+
+roof.setBorderColor('black')
+roof.setFillColor('brown')
+paper.add(roof)
